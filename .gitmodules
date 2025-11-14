@@ -1,0 +1,3 @@
+[submodule "PCB/KiCadLibraries"]
+	path = PCB/KiCadLibraries
+	url = https://github.com/samholdcroft/KiCadLibraries
