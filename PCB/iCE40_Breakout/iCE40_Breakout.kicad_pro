@@ -210,7 +210,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -229,14 +229,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -253,7 +253,8 @@
     "pinned_symbol_libs": [
       "Regulator_LDO",
       "FPGA-Lattice-iCE40",
-      "FPGA_Lattice_iCE40"
+      "FPGA_Lattice_iCE40",
+      "New_Library"
     ]
   },
   "meta": {
@@ -419,6 +420,14 @@
     [
       "ce4d7974-ef38-4eea-8119-381c4298ef02",
       "Root"
+    ],
+    [
+      "64261fd1-1565-42f1-91bd-c3aa9c264fe7",
+      "iCE40LP384 FPGA"
+    ],
+    [
+      "01a0af1d-1c95-48f8-8e55-14d3b3651b87",
+      "Power"
     ]
   ],
   "text_variables": {}
