@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "FPGA_Lattice_iCE40")(type "KiCad")(uri "${KIPRJMOD}/../KiCadLibraries/FPGA_Lattice_iCE40/FPGA_Lattice_iCE40.kicad_sym")(options "")(descr ""))
-  (lib (name "Regulator_LDO")(type "KiCad")(uri "${KIPRJMOD}/../KiCadLibraries/Regulator_LDO/Regulator_LDO.kicad_sym")(options "")(descr ""))
 )
