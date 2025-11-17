@@ -246,8 +246,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "FPGA_Lattice_iCE40",
+      "Regulator_LDO"
+    ],
+    "pinned_symbol_libs": [
+      "Regulator_LDO",
+      "FPGA-Lattice-iCE40",
+      "FPGA_Lattice_iCE40"
+    ]
   },
   "meta": {
     "filename": "iCE40_Breakout.kicad_pro",
@@ -408,6 +415,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "ce4d7974-ef38-4eea-8119-381c4298ef02",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
