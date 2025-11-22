@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 102.235 29.845)
+		(at 104.14 29.21)
 		(size 56.515 34.925)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "01a0af1d-1c95-48f8-8e55-14d3b3651b87")
 		(property "Sheetname" "Power"
-			(at 102.235 29.1334 0)
+			(at 104.14 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 102.235 65.3546 0)
+			(at 104.14 64.7196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,49 @@
 		)
 	)
 	(sheet
-		(at 40.005 29.845)
+		(at 39.37 72.39)
+		(size 56.515 34.925)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b13b405-f1f0-4313-93f2-3939760c2f72")
+		(property "Sheetname" "Flash"
+			(at 39.37 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 39.37 107.8996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 29.21)
 		(size 56.515 34.925)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +106,7 @@
 		)
 		(uuid "64261fd1-1565-42f1-91bd-c3aa9c264fe7")
 		(property "Sheetname" "iCE40LP384 FPGA"
-			(at 40.005 29.1334 0)
+			(at 39.37 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "iCE40LP384_FPGA.kicad_sch"
-			(at 40.005 65.3546 0)
+			(at 39.37 64.7196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
