@@ -5,6 +5,113 @@
 	(uuid "dd7ba6b0-e3e2-4a5d-86cc-5be931b6d369")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1141,6 +1248,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 85.09) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdc2a26-5792-4eac-ba3c-1132b61aecfd")
+	)
+	(wire
+		(pts
 			(xy 78.74 21.59) (xy 81.28 21.59)
 		)
 		(stroke
@@ -1148,6 +1265,16 @@
 			(type default)
 		)
 		(uuid "a287c8a1-4c68-49e3-b057-4af5d4722dae")
+	)
+	(wire
+		(pts
+			(xy 81.28 19.05) (xy 81.28 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71f59b0-3dd6-4c60-8d05-98f90f2dff71")
 	)
 	(wire
 		(pts
@@ -1328,6 +1455,16 @@
 			(type default)
 		)
 		(uuid "edfd42d8-c230-48d5-b98b-e41b8810a222")
+	)
+	(wire
+		(pts
+			(xy 80.01 53.34) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9e2ce9-28ab-4c5d-a739-6f5f9cc08d49")
 	)
 	(wire
 		(pts
@@ -1587,6 +1724,72 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2abd4fd9-3c28-462f-b150-f343b274f3b8")
+		(property "Reference" "TP3"
+			(at 82.55 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2V2 TP"
+			(at 82.55 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b13cbdd-733d-403d-a9f2-5fc67ba375c6")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2023,6 +2226,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "886ad516-86f8-47b0-a209-0f74203fb03c")
+		(property "Reference" "TP2"
+			(at 82.55 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3TP"
+			(at 82.55 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd97ac60-8144-4050-aa99-9e06f81f132a")
+		)
+		(instances
+			(project ""
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 71.12 0)
 		(unit 1)
@@ -2289,6 +2558,72 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efef9531-65c5-4932-b8a8-b9d717ba2aef")
+		(property "Reference" "TP1"
+			(at 83.82 14.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V2 TP"
+			(at 83.82 17.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e2bd9a2-efc4-421d-b527-528cbfbd5189")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
