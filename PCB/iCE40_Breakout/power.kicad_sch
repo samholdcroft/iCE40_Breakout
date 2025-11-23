@@ -252,6 +252,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:MIC5504-1.2YM5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1051,10 +1219,36 @@
 		(uuid "b70c2c08-322b-4ae0-87ea-accedee8d2e1")
 	)
 	(junction
+		(at 234.95 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14d9ac7-5672-4f5c-a163-a0d5f9856993")
+	)
+	(junction
 		(at 33.02 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1747f78-cf47-42c1-af12-949876e6a3a1")
+	)
+	(wire
+		(pts
+			(xy 222.25 22.86) (xy 224.79 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018e01e4-f7fd-4b8f-9138-6ca4d335eef0")
+	)
+	(wire
+		(pts
+			(xy 232.41 22.86) (xy 234.95 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ac1f6f-cf53-461d-ac77-87b6ee5d1efa")
 	)
 	(wire
 		(pts
@@ -1115,6 +1309,16 @@
 			(type default)
 		)
 		(uuid "1c5f3391-09f3-468f-b176-cf2e7dda5ccb")
+	)
+	(wire
+		(pts
+			(xy 234.95 22.86) (xy 234.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d923906-14cd-4bb0-8e19-4beff8b9ae26")
 	)
 	(wire
 		(pts
@@ -1245,6 +1449,16 @@
 			(type default)
 		)
 		(uuid "4c5c3b63-0c48-4683-9ba5-6874b3a78d1d")
+	)
+	(wire
+		(pts
+			(xy 232.41 31.75) (xy 234.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e72d3cb-03a7-44a4-81d7-3ca6a8c6fd52")
 	)
 	(wire
 		(pts
@@ -1556,6 +1770,16 @@
 		)
 		(uuid "dc67f4c3-1c4a-46b0-8438-0c78bdb2d0bd")
 	)
+	(wire
+		(pts
+			(xy 234.95 31.75) (xy 247.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3f7158-f5a6-426d-8de1-5e3cb17bd22a")
+	)
 	(polyline
 		(pts
 			(xy 100.33 118.11) (xy 15.24 118.11)
@@ -1648,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 31.75) (xy 224.79 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe18f725-a125-4ab1-968c-685bf263570c")
+	)
+	(wire
+		(pts
 			(xy 115.57 21.59) (xy 115.57 24.13)
 		)
 		(stroke
@@ -1656,9 +1890,9 @@
 		)
 		(uuid "ff4aa484-e386-4f6c-9ea9-c73c0f264460")
 	)
-	(global_label "USB5V"
+	(global_label "PROG5V"
 		(shape input)
-		(at 30.48 87.63 180)
+		(at 222.25 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,9 +1900,31 @@
 			)
 			(justify right)
 		)
-		(uuid "1f542f00-b888-40b6-bfb0-d2323d6f534a")
+		(uuid "0b92553f-25ed-48db-b78f-bc31f3a6c398")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3867 87.63 0)
+			(at 211.8262 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR"
+		(shape input)
+		(at 30.48 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9e495a-b0e6-4ca0-b1e6-924978eb4806")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,28 +1952,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB5V"
-		(shape input)
-		(at 30.48 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2727b6a5-6812-4ede-9018-4a2d730b70a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3867 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -1766,6 +2000,28 @@
 			)
 		)
 	)
+	(global_label "PWR"
+		(shape input)
+		(at 30.48 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59e144c8-e2f5-4092-a71b-fbfeef56f3b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 83.82 21.59 0)
@@ -1779,6 +2035,50 @@
 		(uuid "776ed02c-7246-44c8-8d36-b783aac249d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.4338 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR"
+		(shape input)
+		(at 113.03 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8311ec21-5847-4936-9865-423a1a0655ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0534 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR"
+		(shape input)
+		(at 247.65 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "955f94da-a371-4b90-8b0f-08d2d96336ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.6266 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,28 +2110,6 @@
 			)
 		)
 	)
-	(global_label "USB5V"
-		(shape input)
-		(at 30.48 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b15be3b5-b5b0-4fa6-b42f-2b27c7e34941")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3867 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VPP"
 		(shape input)
 		(at 138.43 26.67 180)
@@ -1854,9 +2132,9 @@
 			)
 		)
 	)
-	(global_label "USB5V"
+	(global_label "PWR"
 		(shape input)
-		(at 113.03 21.59 180)
+		(at 30.48 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1864,9 +2142,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d160e080-fc5c-45dd-8d7a-139530d85c71")
+		(uuid "c5a403d5-a6e6-43e7-8a09-a5cb4d07a6f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9367 21.59 0)
+			(at 23.5034 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,6 +2172,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB5V"
+		(shape input)
+		(at 222.25 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbe244cb-17ac-4a13-a17a-a7621bb852d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.1567 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2476,6 +2776,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 228.6 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72854a50-bf9e-47c4-ad46-6629e31df843")
+		(property "Reference" "D3"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5761d64-6d25-4c0e-bcc8-4d8c09393344")
+		)
+		(pin "2"
+			(uuid "fc65537f-d109-421f-93de-1f8716afc14a")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 38.1 0)
 		(unit 1)
@@ -2940,6 +3325,92 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb6ff0f-8773-4654-82f5-4d2a9f0a2eb0")
+		(property "Reference" "D2"
+			(at 228.6 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 228.6 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "434cc7f2-f707-4670-a635-dc29d4dac541")
+		)
+		(pin "2"
+			(uuid "f33281a9-9a46-41df-92fe-7e0cce1ce6ed")
+		)
+		(instances
+			(project ""
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "D2")
 					(unit 1)
 				)
 			)

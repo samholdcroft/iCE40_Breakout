@@ -1478,7 +1478,7 @@
 		)
 		(uuid "f18c27d0-5aae-4192-8641-31f755398c5c")
 	)
-	(global_label "5VPROG"
+	(global_label "PROG5V"
 		(shape input)
 		(at 71.12 36.83 180)
 		(fields_autoplaced yes)
