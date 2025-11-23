@@ -387,7 +387,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
+		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -399,15 +399,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 1.905 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -432,7 +432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
+			(property "Description" "Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -459,7 +459,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_0"
+			(symbol "Jumper_2_Open_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -483,11 +483,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_0_1"
+			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -497,7 +497,7 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Bridged_1_1"
+			(symbol "Jumper_2_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1731,6 +1731,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2613930"
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "13fe192c-f8b0-4ac7-9735-e1dd2661573a")
 		)
@@ -1793,7 +1802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 95.25 48.26 0)
 			(effects
 				(font
@@ -1866,7 +1875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 41.91 90)
 			(effects
 				(font
@@ -1885,6 +1894,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 102.87 41.91 0)
 			(effects
 				(font
@@ -1976,7 +1994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Jumper:Jumper_2_Open")
 		(at 118.11 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1984,8 +2002,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e780bd3c-e1bc-4193-adc6-a7ccba10f50e")
-		(property "Reference" "JP1"
+		(uuid "deeef03e-df93-47b1-ac22-ceffcf7e419f")
+		(property "Reference" "JP3"
 			(at 119.38 40.6399 90)
 			(effects
 				(font
@@ -1994,7 +2012,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "Jumper_2_Open"
 			(at 119.38 43.1799 90)
 			(effects
 				(font
@@ -2003,7 +2021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 118.11 41.91 0)
 			(effects
 				(font
@@ -2021,7 +2039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" "Jumper, 2-pole, open"
 			(at 118.11 41.91 0)
 			(effects
 				(font
@@ -2030,16 +2048,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f1b49d18-4859-4a3e-abdf-8a60d18d11eb")
-		)
 		(pin "1"
-			(uuid "167341db-b212-443b-9991-b08c8f752dc1")
+			(uuid "d9ec84a6-f9a2-449a-9a6e-f048ee7c52ed")
+		)
+		(pin "2"
+			(uuid "1728f91e-915f-478c-beef-c71bab4b7f4c")
 		)
 		(instances
-			(project ""
+			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 78.74 39.37 0)
 			(effects
 				(font

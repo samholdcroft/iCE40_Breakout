@@ -15164,6 +15164,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "007105e4-4dbc-4a96-83ef-49fb11d89d5d")
+		(property "Reference" "C11"
+			(at 251.46 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 251.46 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ae9bded-47a8-481b-89e0-f05ef249ff04")
+		)
+		(pin "1"
+			(uuid "723afbc9-05ab-45ab-b250-2d513226af8a")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 90.17 182.88 0)
 		(unit 1)
@@ -15171,7 +15249,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03585152-6d29-4156-ba9e-fac1e4f0f939")
 		(property "Reference" "Q1"
 			(at 96.52 181.6099 0)
@@ -15182,8 +15259,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 96.52 184.1499 0)
+		(property "Value" "L2N7002SLLT1G"
+			(at 96.52 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,7 +15268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 95.25 180.34 0)
 			(effects
 				(font
@@ -15200,7 +15277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" ""
 			(at 90.17 195.58 0)
 			(effects
 				(font
@@ -15238,6 +15315,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 90.17 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22446827"
+			(at 90.17 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +15434,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "NCD0805G1"
 			(at 96.52 174.3074 90)
 			(effects
 				(font
@@ -15357,7 +15443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 92.71 171.45 0)
 			(effects
 				(font
@@ -15366,7 +15452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://LED-Nationstar-NCD0805G1.pdf"
 			(at 92.71 171.45 0)
 			(effects
 				(font
@@ -15386,6 +15472,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84260"
+			(at 92.71 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +15530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 135.89 0)
 			(effects
 				(font
@@ -15476,15 +15571,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 54.61 0)
+		(at 185.42 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "16191c59-403a-4c9b-a3ac-47bcbddc111c")
-		(property "Reference" "C12"
-			(at 257.81 52.832 0)
+		(uuid "1633b7db-e035-46ae-a489-697dee5af927")
+		(property "Reference" "C21"
+			(at 185.42 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15492,8 +15587,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 257.81 56.642 0)
+		(property "Value" "4.7μF"
+			(at 185.42 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,8 +15596,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 257.81 54.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +15606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 54.61 0)
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15520,7 +15615,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 54.61 0)
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 185.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15529,15 +15633,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "20ca486e-391f-44aa-a556-cd3ea0010c4a")
+			(uuid "cbcafe0f-3e4f-47d3-af71-e864fd7e4e9d")
 		)
 		(pin "1"
-			(uuid "8299d84a-9d4a-406c-9151-eefa9c823892")
+			(uuid "9f7a0327-206f-4d71-981f-d478c316776c")
 		)
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15610,6 +15714,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 234.95 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1adb5be5-56f6-4654-8aa3-e9259d9851a6")
+		(property "Reference" "C9"
+			(at 234.95 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 234.95 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6de2847e-2611-4cb8-b1da-5813cf7f2184")
+		)
+		(pin "1"
+			(uuid "fa396265-4ad5-475d-ad5f-a4d992883f34")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 257.81 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "204edece-9eef-490c-a6e7-77124413bf14")
+		(property "Reference" "C12"
+			(at 257.81 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 257.81 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5fe3dbd-1646-427d-85ca-0ebe9d2c0f3d")
+		)
+		(pin "1"
+			(uuid "3e1d590a-ef1c-4fe2-9698-0314aef228bf")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 59.69 0)
 		(unit 1)
@@ -15670,75 +15930,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 218.44 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f6f9900-dad1-4b9f-b4f7-2b29676976d9")
-		(property "Reference" "C7"
-			(at 218.44 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7μF"
-			(at 218.44 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18a44356-6e24-47f9-8d6c-19bfb690f47d")
-		)
-		(pin "1"
-			(uuid "3e59ad62-c013-4fb5-96c0-964effc3a56f")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15812,15 +16003,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 185.42 76.2 0)
+		(at 191.77 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "384bc894-c067-426b-aaad-47fed748b252")
-		(property "Reference" "C21"
-			(at 185.42 74.422 0)
+		(uuid "376f129f-3a92-48ce-87d6-435f69b79b64")
+		(property "Reference" "C22"
+			(at 191.77 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,8 +16019,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7μF"
-			(at 185.42 78.232 0)
+		(property "Value" "100nF"
+			(at 191.77 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15837,8 +16028,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,7 +16038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 76.2 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15856,7 +16047,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 76.2 0)
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15865,15 +16065,93 @@
 			)
 		)
 		(pin "2"
-			(uuid "41a5a38f-816b-4092-8fb2-4011d4537d1d")
+			(uuid "a6538ef0-febf-4fbc-927d-2d6c4737cfa5")
 		)
 		(pin "1"
-			(uuid "77a67b4f-ecba-49b4-9c4d-5005a815613e")
+			(uuid "03ea6778-58b9-4b62-802b-6fd06931cab5")
 		)
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C21")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bf97e9e-5050-4646-a068-37bf6ddc5354")
+		(property "Reference" "C10"
+			(at 241.3 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 241.3 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a2ac8f7-429f-43d3-ac25-1bb638829e8d")
+		)
+		(pin "1"
+			(uuid "cc00e4b1-aba5-4c1f-b9fe-51db583e4da7")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15898,7 +16176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KH-6X6X5H-STM"
 			(at 38.1 180.3399 90)
 			(effects
 				(font
@@ -15907,7 +16185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 39.37 179.07 0)
 			(effects
 				(font
@@ -15927,6 +16205,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 34.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2837531"
+			(at 34.29 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16009,144 +16296,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c5f94fd-5b3c-417e-b21d-672dc51debd9")
-		(property "Reference" "C4"
-			(at 191.77 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 191.77 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f483dab-db9b-4f6c-bf65-233ddc87e854")
-		)
-		(pin "1"
-			(uuid "33d9ccb5-dae6-469e-92ca-47cb6ce9943e")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 208.28 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50bdcfe7-6c85-4f4d-be4b-54b82e3f501f")
-		(property "Reference" "C6"
-			(at 208.28 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 208.28 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 208.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "735ccd8b-5390-4aa0-92a5-8fe75a0331f7")
-		)
-		(pin "1"
-			(uuid "4a1f79fb-b161-4af8-a605-506350c78574")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16351,6 +16500,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 224.79 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be4c5d6-e8c3-4b92-8d98-e9cef5bd7230")
+		(property "Reference" "C8"
+			(at 224.79 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.79 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19c5e978-b8c3-49e6-9bdf-49ffbe8a6fa3")
+		)
+		(pin "1"
+			(uuid "1b51b0a6-432e-4d78-8c10-48a45f239c32")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 104.14 0)
 		(unit 1)
@@ -16444,7 +16671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.772 176.53 90)
 			(effects
 				(font
@@ -16553,144 +16780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "661ab524-b22c-4760-9754-8be21958ea1e")
-		(property "Reference" "C3"
-			(at 185.42 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7μF"
-			(at 185.42 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5784ea97-effa-4e2c-8c5d-003b6773613b")
-		)
-		(pin "1"
-			(uuid "6feb6a38-4e05-481f-97cd-a0f77d672987")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 234.95 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ade8128-49e5-4c62-8d7f-b0b22e6215bb")
-		(property "Reference" "C9"
-			(at 234.95 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7μF"
-			(at 234.95 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ef388cd-ef53-457b-95a0-57b070ed94e8")
-		)
-		(pin "1"
-			(uuid "6a1b2988-56a3-4ed7-96e7-a3129186456a")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 59.69 0)
 		(unit 1)
@@ -16757,144 +16846,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 201.93 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76bdcd72-87b6-40dc-bbd9-e13993ca1938")
-		(property "Reference" "C5"
-			(at 201.93 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7μF"
-			(at 201.93 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 201.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c69fa10-3eca-4826-b2be-8e631c775efe")
-		)
-		(pin "1"
-			(uuid "b8146f02-0ce4-42a1-9d9c-091c8f69c9dd")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80a781fb-2c3f-4bcd-9f09-a9470f6c6d6f")
-		(property "Reference" "C22"
-			(at 191.77 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 191.77 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ce8fa10-3d48-409e-9c93-b7501313c59c")
-		)
-		(pin "1"
-			(uuid "1817e5bf-f347-4241-b62e-7ccdbfb8faee")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 255.27 135.89 270)
 		(unit 1)
@@ -16921,7 +16872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 140.97 0)
 			(effects
 				(font
@@ -16987,7 +16938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 146.05 0)
 			(effects
 				(font
@@ -17028,6 +16979,84 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 208.28 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97e91e82-6e0d-4703-9537-b33547321d98")
+		(property "Reference" "C6"
+			(at 208.28 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 208.28 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96ab5f8b-e9bd-444f-bbe1-a5bb512df3ce")
+		)
+		(pin "1"
+			(uuid "5fd5381e-30e8-406a-9459-fb52cb4c8cd3")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 191.77 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17053,7 +17082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.77 34.29 0)
 			(effects
 				(font
@@ -17072,6 +17101,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 191.77 34.29 0)
 			(effects
 				(font
@@ -17122,7 +17160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 143.51 0)
 			(effects
 				(font
@@ -17156,6 +17194,84 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4589dc-91d6-4e2d-956c-d8544b013cbb")
+		(property "Reference" "C5"
+			(at 201.93 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 201.93 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43e0cc4e-ca2c-4c72-b9f8-e1d875dd915d")
+		)
+		(pin "1"
+			(uuid "5cc94f34-141e-4ad2-822a-562bcaabe786")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17228,75 +17344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 241.3 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b933566d-0aba-4293-b53b-8b71d7fe3c55")
-		(property "Reference" "C10"
-			(at 241.3 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74d274d6-5ebd-485e-b272-67f8d425d723")
-		)
-		(pin "1"
-			(uuid "e4a8d2b9-587a-4523-88e8-fce22b610734")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FPGA_Lattice_iCE40:ICE40LP384-SG32")
 		(at 88.9 96.52 0)
 		(unit 1)
@@ -17343,6 +17390,15 @@
 		)
 		(property "Description" "iCE40LP384 with QFN32 footprint"
 			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2678178"
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17459,6 +17515,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be12829c-0851-4aed-b15b-1743c10f7e56")
+		(property "Reference" "C7"
+			(at 218.44 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 218.44 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91d5d1f7-3c62-4d86-bfd4-022aa7e5cc85")
+		)
+		(pin "1"
+			(uuid "b1903b83-8c07-4910-81f2-2738bfc14edd")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 201.93 59.69 0)
 		(unit 1)
@@ -17519,6 +17653,84 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 191.77 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c39d4a-b4c0-4445-847d-483665201c8c")
+		(property "Reference" "C4"
+			(at 191.77 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 191.77 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a596216-add1-41c5-abb7-1f4b22f85420")
+		)
+		(pin "1"
+			(uuid "f62684be-66dc-402c-bf8e-9cabb5f3b8e0")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17617,7 +17829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 151.13 0)
 			(effects
 				(font
@@ -17675,7 +17887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100kΩ"
 			(at 95.25 162.5599 0)
 			(effects
 				(font
@@ -17684,7 +17896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 161.29 90)
 			(effects
 				(font
@@ -17703,6 +17915,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 92.71 161.29 0)
 			(effects
 				(font
@@ -17754,7 +17975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.512 165.1 90)
 			(effects
 				(font
@@ -17773,6 +17994,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 34.29 165.1 0)
 			(effects
 				(font
@@ -17863,6 +18093,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 185.42 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e66fbf2a-bcfc-4af4-90b9-bf40c5247425")
+		(property "Reference" "C3"
+			(at 185.42 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 185.42 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77cb515b-02b7-4bcd-801c-ab92fa55db13")
+		)
+		(pin "1"
+			(uuid "c4b64ac3-71a8-4099-82d7-f1107cc87841")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 59.69 0)
 		(unit 1)
@@ -17923,144 +18231,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 251.46 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7abd2d7-fe9a-4750-ab82-7327e1c92ad7")
-		(property "Reference" "C11"
-			(at 251.46 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7μF"
-			(at 251.46 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 251.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f05ca96-85b5-4bf9-a05e-90ec465ba563")
-		)
-		(pin "1"
-			(uuid "a6b6ffee-d8ac-4cd9-b63d-572fe3129b8d")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 224.79 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7b6f316-49fd-45a9-b703-8b4a83ced1a4")
-		(property "Reference" "C8"
-			(at 224.79 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 224.79 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d560a8a0-6375-4224-a2e0-f379119be139")
-		)
-		(pin "1"
-			(uuid "8c2a3351-6db9-414f-aaa4-df24db46b3ca")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -18159,7 +18329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 148.59 0)
 			(effects
 				(font
@@ -18225,7 +18395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.42 34.29 0)
 			(effects
 				(font
@@ -18244,6 +18414,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
 			(at 185.42 34.29 0)
 			(effects
 				(font
@@ -18294,7 +18473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 255.27 138.43 0)
 			(effects
 				(font
