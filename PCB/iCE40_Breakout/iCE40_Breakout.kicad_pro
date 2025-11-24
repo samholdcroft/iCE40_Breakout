@@ -449,13 +449,17 @@
   "libraries": {
     "pinned_footprint_libs": [
       "FPGA_Lattice_iCE40",
-      "Regulator_LDO"
+      "Regulator_LDO",
+      "Interface_FTDI"
     ],
     "pinned_symbol_libs": [
       "Regulator_LDO",
       "FPGA-Lattice-iCE40",
       "FPGA_Lattice_iCE40",
-      "New_Library"
+      "New_Library",
+      "Interface-FTDI-FT2232HPQ",
+      "Interface-FTDI",
+      "Interface_FTDI"
     ]
   },
   "meta": {
