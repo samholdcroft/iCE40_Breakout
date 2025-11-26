@@ -4833,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 120.65 90)
 			(effects
 				(font
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 19.05 90)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 39.37 90)
 			(effects
 				(font
@@ -5738,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 81.28 90)
 			(effects
 				(font
@@ -6224,7 +6224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 60.96 90)
 			(effects
 				(font
@@ -6756,7 +6756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 59.69 90)
 			(effects
 				(font
@@ -7159,7 +7159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 101.6 90)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 100.33 90)
 			(effects
 				(font
@@ -7557,7 +7557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 80.01 90)
 			(effects
 				(font
@@ -8121,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 40.64 90)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 257.81 20.32 90)
 			(effects
 				(font
