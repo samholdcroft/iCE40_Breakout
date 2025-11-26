@@ -52419,7 +52419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCD0603B1"
+		(property "Value" "NCD0805B2"
 			(at 171.958 151.384 0)
 			(effects
 				(font
@@ -52428,7 +52428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 173.99 147.32 90)
 			(effects
 				(font
@@ -52464,7 +52464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84266"
+		(property "LCSC" "C84259"
 			(at 173.99 147.32 90)
 			(effects
 				(font
