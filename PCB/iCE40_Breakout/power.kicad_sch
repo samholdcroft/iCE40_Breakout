@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "dd7ba6b0-e3e2-4a5d-86cc-5be931b6d369")
 	(paper "A4")
+	(title_block
+		(title "iCE40 Breakout")
+		(date "2025-11-26")
+		(rev "V1R0")
+		(company "S3I")
+		(comment 1 "Voltage regulators")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1028,6 +1035,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "1V2 Regulator"
 		(exclude_from_sim no)
@@ -1187,6 +1295,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e22bffa-0422-48a3-acd3-c383a9ae395a")
+	)
+	(junction
+		(at 241.3 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "995307d9-b5cd-485f-883f-7e9c9aa49337")
 	)
 	(junction
 		(at 33.02 21.59)
@@ -1574,6 +1688,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 31.75) (xy 247.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a116f1f8-0bdf-4912-8c0e-71a7d4054b02")
+	)
+	(wire
+		(pts
 			(xy 78.74 21.59) (xy 81.28 21.59)
 		)
 		(stroke
@@ -1754,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 31.75) (xy 247.65 31.75)
+			(xy 234.95 31.75) (xy 241.3 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2136,6 +2260,28 @@
 			)
 		)
 	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 222.25 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d58ff8c6-94bc-486b-946c-8fb16fd7736f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.5886 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCCIO{slash}SPI"
 		(shape input)
 		(at 82.55 55.88 0)
@@ -2154,28 +2300,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB5V"
-		(shape input)
-		(at 222.25 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fbe244cb-17ac-4a13-a17a-a7621bb852d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.1567 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2419,6 +2543,72 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 241.3 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "267a38b3-306d-4ea3-947f-84692f1df491")
+		(property "Reference" "#FLG02"
+			(at 241.3 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 241.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 241.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b2d4787-5120-4f92-bec5-10f8945b4470")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2827,7 +3017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a34366-a177-48b9-9548-5e7e4b55980d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -2877,7 +3067,7 @@
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3038,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96451830-2f3b-468e-a7da-56e766449dc0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -3088,7 +3278,7 @@
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3104,7 +3294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1e5d361-6cb2-4be3-9648-18b498e5a16b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 68.58 109.22 0)
 			(effects
 				(font
@@ -3154,7 +3344,7 @@
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb50f2c-cc32-4b2a-a979-c33dae146508")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 151.13 43.18 0)
 			(effects
 				(font
@@ -3220,7 +3410,7 @@
 		(instances
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/01a0af1d-1c95-48f8-8e55-14d3b3651b87"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

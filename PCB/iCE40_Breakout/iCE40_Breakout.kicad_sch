@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "ce4d7974-ef38-4eea-8119-381c4298ef02")
 	(paper "A4")
+	(title_block
+		(title "iCE40 Breakout")
+		(date "2025-11-26")
+		(rev "V1R0")
+		(company "S3I")
+		(comment 1 "Breakout board for the iCE40LP384, also testing flashing over USB using FTDI")
+	)
 	(lib_symbols)
 	(sheet
 		(at 104.14 29.21)
