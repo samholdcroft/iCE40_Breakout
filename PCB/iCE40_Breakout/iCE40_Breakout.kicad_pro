@@ -673,6 +673,10 @@
     [
       "0b13b405-f1f0-4313-93f2-3939760c2f72",
       "Flash"
+    ],
+    [
+      "a0447fef-6cc5-400b-aa41-8540b8ebce1f",
+      "FTDI_USB"
     ]
   ],
   "text_variables": {}
