@@ -48871,6 +48871,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 54.61) (xy 262.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fab3f3-fcc3-405a-99b5-8ee3020451dc")
+	)
+	(wire
+		(pts
 			(xy 140.97 39.37) (xy 140.97 41.91)
 		)
 		(stroke
@@ -50681,7 +50691,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 54.61) (xy 245.11 54.61)
+			(xy 242.57 54.61) (xy 247.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -50979,28 +50989,6 @@
 		)
 		(uuid "ff1380bd-1f4c-4c02-98d0-a937f93b671b")
 	)
-	(global_label "FT_DO"
-		(shape input)
-		(at 245.11 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1bdd0b5a-2c63-431a-a199-b1310ac69290")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.7195 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_CC1"
 		(shape input)
 		(at 45.72 30.48 0)
@@ -51243,6 +51231,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_SDI"
+		(shape input)
+		(at 245.11 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b03156-3d6e-49da-94f3-b80460b71da7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8643 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 54.61 152.4 0)
@@ -51353,6 +51363,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_CS"
+		(shape input)
+		(at 262.89 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1203e21-cadf-4a18-9608-2188621040e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.0395 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 168.91 85.09 180)
@@ -51441,6 +51473,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_SCK"
+		(shape input)
+		(at 245.11 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c138f92a-2a89-49cc-8cae-da2d02511156")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.5295 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_CC2"
 		(shape input)
 		(at 176.53 100.33 180)
@@ -51459,28 +51513,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FT_CS"
-		(shape input)
-		(at 245.11 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d123fe04-7669-4833-8432-98d63a65d6f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.5985 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -51595,6 +51627,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_SDO"
+		(shape input)
+		(at 245.11 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e56e8f0c-0d78-4cf3-97c3-8d91ef39a0b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FT_GPIO0"
 		(shape input)
 		(at 245.11 135.89 0)
@@ -51696,50 +51750,6 @@
 		(uuid "f45714f8-b113-4dcd-aa36-89b131e1f62c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.1028 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FT_DI"
-		(shape input)
-		(at 245.11 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6ad4262-cd60-4d36-a256-07e61db1bcf7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.9938 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FT_SCK"
-		(shape input)
-		(at 245.11 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ffca3cdf-a5f5-422f-89bd-99d838d1c071")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.8685 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56216,6 +56226,75 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/a0447fef-6cc5-400b-aa41-8540b8ebce1f"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 252.73 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2d055e1-daf8-4f5e-9576-f7766c5ebfb9")
+		(property "Reference" "JP3"
+			(at 255.016 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FTDI_prog_disable"
+			(at 252.73 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ae15bc-378d-4dd5-b03a-492d0f3dcd06")
+		)
+		(pin "2"
+			(uuid "98c41546-3726-4269-83f3-4642b664df24")
+		)
+		(instances
+			(project "iCE40_Breakout"
+				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/a0447fef-6cc5-400b-aa41-8540b8ebce1f"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
