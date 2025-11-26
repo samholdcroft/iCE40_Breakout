@@ -1406,7 +1406,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFNS32_LAT"
+			(property "Footprint" "FPGA_Lattice_iCE40:QFNS32_LAT"
 				(at 0 -32.766 0)
 				(effects
 					(font
@@ -1520,7 +1520,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -22.86 17.78 0)
 					(length 2.54)
 					(name "CRESET_B"
@@ -1538,7 +1538,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -22.86 15.24 0)
 					(length 2.54)
 					(name "CDONE"
@@ -18260,7 +18260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -18720,7 +18720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 120.65 118.11 0)
 			(effects
 				(font
@@ -19784,7 +19784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 82.55 120.65 0)
 			(effects
 				(font
