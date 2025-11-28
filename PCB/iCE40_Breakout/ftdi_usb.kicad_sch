@@ -47833,6 +47833,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 271.78 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "667dbf61-054c-49c0-bb1a-ca97e970ec6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.2728 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FPGA_SDI"
 		(shape input)
 		(at 245.11 49.53 0)
@@ -47868,28 +47890,6 @@
 		(uuid "6cbd0e13-1072-47a4-accb-5b16ce53d737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.1028 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCCIO{slash}SPI"
-		(shape input)
-		(at 271.78 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7cd40ada-799e-4cc8-a04c-43f70c762993")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.7439 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49353,7 +49353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7μF"
+		(property "Value" "10μF"
 			(at 156.464 38.608 0)
 			(effects
 				(font
@@ -49389,7 +49389,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23733"
+		(property "LCSC" "C15525"
 			(at 157.48 36.83 0)
 			(effects
 				(font
