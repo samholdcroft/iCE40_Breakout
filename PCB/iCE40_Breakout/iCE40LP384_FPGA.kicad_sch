@@ -12,113 +12,6 @@
 		(comment 1 "FPGA, breakout connectors, and some indicator LEDs")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -14434,16 +14327,6 @@
 		)
 		(uuid "79b711a8-fa20-498e-b12b-61b9d179026c")
 	)
-	(text "SPI Programming TPs"
-		(exclude_from_sim no)
-		(at 253.238 150.114 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8b8d7f0b-ba21-483a-8f04-b2a9dfc0c3f3")
-	)
 	(text "Config Reset"
 		(exclude_from_sim no)
 		(at 34.29 195.072 0)
@@ -14952,16 +14835,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 143.51) (xy 255.27 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee57ae5-2fb4-471f-bd09-fe0dbabd2518")
-	)
-	(wire
-		(pts
 			(xy 156.21 31.75) (xy 156.21 34.29)
 		)
 		(stroke
@@ -15152,16 +15025,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 255.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75160d59-bbaa-4027-8d34-9e44b7ae4471")
-	)
-	(wire
-		(pts
 			(xy 149.86 66.04) (xy 149.86 68.58)
 		)
 		(stroke
@@ -15232,16 +15095,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 255.27 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802a74ef-9cf8-41d8-86cd-726d7d02e596")
-	)
-	(wire
-		(pts
 			(xy 91.44 179.07) (xy 91.44 176.53)
 		)
 		(stroke
@@ -15249,16 +15102,6 @@
 			(type default)
 		)
 		(uuid "80d5867b-9dd5-42df-846d-52f7210e8000")
-	)
-	(wire
-		(pts
-			(xy 248.92 138.43) (xy 255.27 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "823a50ea-69c4-479a-aa65-a63c7127778e")
 	)
 	(wire
 		(pts
@@ -15349,16 +15192,6 @@
 			(type default)
 		)
 		(uuid "9c061be2-2779-4ece-b4ff-260379eaf3a3")
-	)
-	(wire
-		(pts
-			(xy 248.92 140.97) (xy 255.27 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c177bcb-f4d7-4ac0-8b87-671bcd8f5aa2")
 	)
 	(wire
 		(pts
@@ -15492,16 +15325,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 146.05) (xy 255.27 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b246f748-9e02-46c2-80ae-784ffa41c2df")
-	)
-	(wire
-		(pts
 			(xy 172.72 44.45) (xy 182.88 44.45)
 		)
 		(stroke
@@ -15609,16 +15432,6 @@
 			(type default)
 		)
 		(uuid "c05cc1d7-d8e7-40aa-a819-36fb00a77a03")
-	)
-	(wire
-		(pts
-			(xy 248.92 133.35) (xy 255.27 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3a4a033-3b3b-4b9c-b7d8-ee50fe752d06")
 	)
 	(wire
 		(pts
@@ -15986,28 +15799,6 @@
 			)
 		)
 	)
-	(global_label "FPGA_SCK"
-		(shape input)
-		(at 248.92 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0eabc97a-a10d-44da-bd6d-6ddfe04faef9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.5005 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IOR_34"
 		(shape input)
 		(at 113.03 118.11 180)
@@ -16065,28 +15856,6 @@
 		(uuid "23a661d9-b7c4-4f1d-bcfe-4ee7664fb6a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.6553 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCCIO{slash}SPI"
-		(shape input)
-		(at 248.92 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2779b6df-11f8-42e2-988c-8720cea6c2a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.9561 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16536,28 +16305,6 @@
 			)
 		)
 	)
-	(global_label "CDONE"
-		(shape input)
-		(at 248.92 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f15fae8-b212-46fb-a585-e73afec09ee3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.5848 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IOT_52"
 		(shape input)
 		(at 74.93 113.03 180)
@@ -16734,28 +16481,6 @@
 			)
 		)
 	)
-	(global_label "FPGA_SDO"
-		(shape input)
-		(at 248.92 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3a42105-89e1-4639-a3d0-a97d81af1a2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_SCK"
 		(shape input)
 		(at 113.03 120.65 180)
@@ -16813,28 +16538,6 @@
 		(uuid "b3f6ddad-2878-4e66-9338-41c390c22a05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.9361 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPGA_SDI"
-		(shape input)
-		(at 248.92 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bec03fba-4bef-4625-a741-839ffe1f0475")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.1657 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,28 +16811,6 @@
 			)
 		)
 	)
-	(global_label "FPGA_CS"
-		(shape input)
-		(at 248.92 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd314c53-3e93-4b73-827e-15ac182372a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.831 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IOR_38"
 		(shape input)
 		(at 74.93 130.81 180)
@@ -17209,28 +16890,6 @@
 		(uuid "ea2fee4e-7381-42f9-ac86-b4d7bd6319bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.8962 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CRESET_B"
-		(shape input)
-		(at 248.92 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0eb50bf-cc50-4db5-b3cc-e6ba13c04edc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.6821 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17751,72 +17410,6 @@
 			(project ""
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14092179-75fe-41f9-8a81-867ce9227fe3")
-		(property "Reference" "TP1"
-			(at 254.254 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CRESET_B TP"
-			(at 259.842 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c94f0396-2ea0-4ca0-a164-68f89d6d851f")
-		)
-		(instances
-			(project ""
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -19347,138 +18940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8759a8c4-f8a8-4fb7-82d4-c6cd629a70f5")
-		(property "Reference" "TP3"
-			(at 254.254 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_VCC TP"
-			(at 259.842 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b9880f7-09e7-44ca-8b5b-b7513cfa776e")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fd0def1-3926-46bb-a468-2e9f973df612")
-		(property "Reference" "TP5"
-			(at 254.254 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_SO TP"
-			(at 259.842 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3bdc4cc-f9f4-4deb-87c6-b4544290d02b")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 172.72 49.53 0)
 		(unit 1)
@@ -19629,72 +19090,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a69e2f47-fda4-4d28-9c20-e331cb73c45b")
-		(property "Reference" "TP4"
-			(at 254.254 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_SI TP"
-			(at 259.842 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b12c29fd-d7a4-47c3-b13a-4bbdc20233cd")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20464,72 +19859,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1f0225a-4554-4ec2-a4ad-a1fd035aa9e5")
-		(property "Reference" "TP7"
-			(at 254.254 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_SS TP"
-			(at 259.842 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8c544d5-f47f-499f-931b-3bceca2c4ac8")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 101.6 161.29 0)
 		(unit 1)
@@ -21030,72 +20359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb1afbd4-7cbc-4272-a084-cbdb20bae7b0")
-		(property "Reference" "TP6"
-			(at 254.254 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_SCK TP"
-			(at 259.842 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd827ad0-75a2-4a1d-b552-781fe02b4a96")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 149.86 29.21 0)
 		(unit 1)
@@ -21168,72 +20431,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0e098b0-3ff8-4c91-a288-02ca995c59ff")
-		(property "Reference" "TP2"
-			(at 254.254 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CDONE TP"
-			(at 259.842 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29c973aa-6727-43be-a13f-b84f250a9144")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/64261fd1-1565-42f1-91bd-c3aa9c264fe7"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
