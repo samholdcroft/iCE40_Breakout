@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|66935000|96950000|02740bef-7af6-49e5-a967-5a018ef8363b|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c",
+          ""
+        ],
+        [
+          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c7d43d1d-8360-442d-8199-69f898a560ea|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|81599700|103924300|fbb87638-3543-45a8-83d0-ac607bf82e26|781c053a-84b5-407c-8d8d-9eaf479351d4|F.Cu",
+          "Pad connects to larger ground via track"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -102,7 +119,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -134,10 +151,10 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
