@@ -47591,6 +47591,16 @@
 		)
 		(uuid "ff1380bd-1f4c-4c02-98d0-a937f93b671b")
 	)
+	(label "VCORE"
+		(at 162.56 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c737d72f-94fb-4b79-9746-24e8fc2cdf02")
+	)
 	(global_label "USB_CC1"
 		(shape input)
 		(at 45.72 30.48 0)
@@ -49441,7 +49451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 55.88 22.86 0)
 			(effects
 				(font
@@ -51607,7 +51617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 139.7 105.41 0)
 			(effects
 				(font
@@ -53038,7 +53048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -53599,7 +53609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 166.37 29.21 0)
 			(effects
 				(font
@@ -53731,7 +53741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 124.46 105.41 0)
 			(effects
 				(font
