@@ -1993,7 +1993,7 @@
 	)
 	(text "Extra SPI Programming TPs"
 		(exclude_from_sim no)
-		(at 39.878 92.456 0)
+		(at 39.878 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2003,7 +2003,7 @@
 	)
 	(text "Pin indicator LEDs"
 		(exclude_from_sim no)
-		(at 253.492 128.016 0)
+		(at 233.68 60.452 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2068,34 +2068,10 @@
 		(uuid "8601c3a3-4a2c-42ef-9da7-7fb698cef9c1")
 	)
 	(junction
-		(at 76.2 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "922c1bd0-c5c8-4a0d-aaf1-8ac6f335efbc")
-	)
-	(junction
-		(at 68.58 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abd28d5a-681f-40ff-9ee4-5767534248dd")
-	)
-	(junction
-		(at 83.82 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad9407a9-c1e4-4dd4-b5ca-e7049d787e8d")
-	)
-	(junction
 		(at 109.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7ca0c5a-0af8-4003-a993-c08339f0b24e")
-	)
-	(junction
-		(at 91.44 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b08a09-abbb-4d15-b06f-4194d7ebef0f")
 	)
 	(junction
 		(at 125.73 45.72)
@@ -2165,16 +2141,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a826328-eb1a-45a8-b07f-28fe0ab45861")
-	)
-	(wire
-		(pts
 			(xy 109.22 72.39) (xy 109.22 74.93)
 		)
 		(stroke
@@ -2195,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 204.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb16a72-3097-4575-ae96-f83017ae1c99")
-	)
-	(wire
-		(pts
 			(xy 93.98 39.37) (xy 93.98 54.61)
 		)
 		(stroke
@@ -2212,16 +2168,6 @@
 			(type default)
 		)
 		(uuid "11fa146b-64b3-4f9e-abec-f259e6b78f22")
-	)
-	(wire
-		(pts
-			(xy 196.85 128.27) (xy 194.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138bcf6e-2a65-46c7-a52d-24f7b8a4af0c")
 	)
 	(wire
 		(pts
@@ -2305,16 +2251,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 60.96) (xy 273.05 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24704b11-d091-4d32-b4c1-093708202b53")
-	)
-	(wire
-		(pts
 			(xy 204.47 19.05) (xy 207.01 19.05)
 		)
 		(stroke
@@ -2322,16 +2258,6 @@
 			(type default)
 		)
 		(uuid "26465ba1-a01e-4b01-b64a-43fa73861f36")
-	)
-	(wire
-		(pts
-			(xy 270.51 101.6) (xy 273.05 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27eefa92-5172-4877-a1ec-f1f0449aec0b")
 	)
 	(wire
 		(pts
@@ -2345,33 +2271,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c4f7d8-230b-48d2-b5de-9919c318afe3")
-	)
-	(wire
-		(pts
-			(xy 63.5 57.15) (xy 76.2 57.15)
+			(xy 63.5 57.15) (xy 99.06 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "312fb213-d51b-4f6e-ac90-db77626617e5")
-	)
-	(wire
-		(pts
-			(xy 68.58 59.69) (xy 99.06 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d7a332-e73b-4884-9e6f-3d648251e889")
 	)
 	(wire
 		(pts
@@ -2465,43 +2371,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 59.69) (xy 224.79 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dff8f97-ea60-4232-bf2d-1b95098ee41b")
-	)
-	(wire
-		(pts
-			(xy 76.2 54.61) (xy 83.82 54.61)
+			(xy 76.2 54.61) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "440640e8-cf48-4db4-8b31-ddc5a1a5e7cd")
-	)
-	(wire
-		(pts
-			(xy 252.73 114.3) (xy 252.73 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "465815c1-6934-49da-9988-f08f4a5302d2")
-	)
-	(wire
-		(pts
-			(xy 35.56 88.9) (xy 41.91 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48067a45-902b-48be-92d4-b38d890a0635")
 	)
 	(wire
 		(pts
@@ -2512,26 +2388,6 @@
 			(type default)
 		)
 		(uuid "4836a561-fef2-4c37-a009-ff60f98290ea")
-	)
-	(wire
-		(pts
-			(xy 245.11 68.58) (xy 242.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ccacf51-571f-4cd6-9030-04dfb995aa9a")
-	)
-	(wire
-		(pts
-			(xy 204.47 120.65) (xy 207.01 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee7f77e-3f6a-40df-a220-e47286a2edf1")
 	)
 	(wire
 		(pts
@@ -2565,16 +2421,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 100.33) (xy 217.17 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5983e837-a918-48df-8499-42a68e1f53c4")
-	)
-	(wire
-		(pts
 			(xy 35.56 86.36) (xy 41.91 86.36)
 		)
 		(stroke
@@ -2582,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "599461a3-6ad7-41f2-a96d-db3a6df6de68")
-	)
-	(wire
-		(pts
-			(xy 91.44 52.07) (xy 91.44 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd06196-9eab-4ab3-b326-6769034ecb38")
 	)
 	(wire
 		(pts
@@ -2625,76 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 100.33) (xy 224.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c799a6-0571-455a-b003-fc0bd3982eae")
-	)
-	(wire
-		(pts
-			(xy 204.47 113.03) (xy 204.47 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d36123-1aba-48a4-ab60-2a734c2c6af7")
-	)
-	(wire
-		(pts
-			(xy 204.47 102.87) (xy 204.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d654bf-9980-4121-acdb-87cc98fcab1a")
-	)
-	(wire
-		(pts
-			(xy 196.85 67.31) (xy 194.31 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f820da-dd61-4a8f-bad1-1e4ecc25deb8")
-	)
-	(wire
-		(pts
-			(xy 204.47 123.19) (xy 204.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c26cddf-18b5-44ee-9b47-3e68d6afae7d")
-	)
-	(wire
-		(pts
-			(xy 204.47 80.01) (xy 207.01 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1c79c1-7fc3-48fc-b54d-8cb3f070ee49")
-	)
-	(wire
-		(pts
-			(xy 204.47 59.69) (xy 207.01 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74dde467-9db4-4a07-9468-5e81d384ae41")
-	)
-	(wire
-		(pts
 			(xy 109.22 31.75) (xy 111.76 31.75)
 		)
 		(stroke
@@ -2702,16 +2468,6 @@
 			(type default)
 		)
 		(uuid "75708151-6f8f-43c4-8775-9ad65b1e8d1c")
-	)
-	(wire
-		(pts
-			(xy 204.47 72.39) (xy 204.47 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e0ec3b-a1fa-4c6f-97d8-2832be062948")
 	)
 	(wire
 		(pts
@@ -2732,26 +2488,6 @@
 			(type default)
 		)
 		(uuid "7da7dfa9-5578-4054-8f52-5bf472f01f13")
-	)
-	(wire
-		(pts
-			(xy 83.82 54.61) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81305160-83f6-4ef4-adee-edc37f108d16")
-	)
-	(wire
-		(pts
-			(xy 76.2 57.15) (xy 76.2 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847e0b54-2cfc-40b0-9c15-580adb28bba6")
 	)
 	(polyline
 		(pts
@@ -2785,16 +2521,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 59.69) (xy 217.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e609dca-93f9-4f10-a1ef-ce1d76d4bf03")
-	)
-	(wire
-		(pts
 			(xy 35.56 83.82) (xy 41.91 83.82)
 		)
 		(stroke
@@ -2802,16 +2528,6 @@
 			(type default)
 		)
 		(uuid "912327b2-7c1e-4bb2-8a63-db23647fb09f")
-	)
-	(wire
-		(pts
-			(xy 245.11 109.22) (xy 242.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a38c75-4920-448e-929c-d8063429e5fc")
 	)
 	(wire
 		(pts
@@ -2832,26 +2548,6 @@
 			(type default)
 		)
 		(uuid "95048e06-942a-4800-bc53-a806d5aa870f")
-	)
-	(wire
-		(pts
-			(xy 204.47 82.55) (xy 204.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968496a7-651f-44c7-b0c1-812e90a37714")
-	)
-	(wire
-		(pts
-			(xy 204.47 133.35) (xy 204.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa2d360-9d72-4fd3-add4-a3bbc79e92d6")
 	)
 	(wire
 		(pts
@@ -2905,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 217.17 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf0f42a-35ef-4868-b431-997fd49f7cfe")
-	)
-	(wire
-		(pts
 			(xy 41.91 59.69) (xy 60.96 59.69)
 		)
 		(stroke
@@ -2945,16 +2631,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 73.66) (xy 252.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17a9621-c850-4992-a108-2009954e55d3")
-	)
-	(wire
-		(pts
 			(xy 196.85 26.67) (xy 194.31 26.67)
 		)
 		(stroke
@@ -2965,87 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 204.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59d76ed-321d-46e6-b321-d15fe62ebe45")
-	)
-	(wire
-		(pts
-			(xy 212.09 80.01) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7265bff-b6be-41d7-b9d7-acafe82d7a77")
-	)
-	(wire
-		(pts
-			(xy 252.73 63.5) (xy 252.73 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb36270-637e-4302-840f-73dda4ef7f88")
-	)
-	(wire
-		(pts
-			(xy 252.73 93.98) (xy 252.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfda347b-e132-4748-ae25-72d5a2a722b9")
-	)
-	(wire
-		(pts
-			(xy 260.35 60.96) (xy 265.43 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00e377d-bc1e-4958-b612-9e65a0ac5661")
-	)
-	(wire
-		(pts
-			(xy 222.25 120.65) (xy 224.79 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5551e71-2262-44f7-a5d0-fef4cc730ee9")
-	)
-	(wire
-		(pts
-			(xy 252.73 60.96) (xy 255.27 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9207b66-b83f-4a49-a138-9a5d1af83338")
-	)
-	(wire
-		(pts
-			(xy 196.85 87.63) (xy 194.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b401cf-8a04-4386-bbd3-dbec0db7b830")
-	)
-	(wire
-		(pts
-			(xy 60.96 59.69) (xy 68.58 59.69)
+			(xy 60.96 59.69) (xy 99.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3065,26 +2661,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 81.28) (xy 255.27 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2ab941-552a-4390-8ab5-8ed8a89884c8")
-	)
-	(wire
-		(pts
-			(xy 252.73 104.14) (xy 252.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d450f64f-8411-4266-a562-48a3299cbef7")
-	)
-	(wire
-		(pts
 			(xy 252.73 53.34) (xy 252.73 54.61)
 		)
 		(stroke
@@ -3092,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "d588a89e-be75-4db8-98b0-8f743e55fecf")
-	)
-	(wire
-		(pts
-			(xy 260.35 101.6) (xy 265.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d696d5bb-68d2-4b71-892c-3a99f2944361")
 	)
 	(wire
 		(pts
@@ -3115,26 +2681,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 107.95) (xy 194.31 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbc2be6-efd7-4c49-a241-d100f4f91d61")
-	)
-	(wire
-		(pts
-			(xy 260.35 81.28) (xy 265.43 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08d6b78-cbf6-4b2f-85f2-d7c4e55bcc46")
-	)
-	(wire
-		(pts
 			(xy 252.73 40.64) (xy 255.27 40.64)
 		)
 		(stroke
@@ -3142,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "e277af31-7e67-4f09-8bf8-bccb0481a497")
-	)
-	(wire
-		(pts
-			(xy 270.51 81.28) (xy 273.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4414cc1-ab42-4012-896f-170e3bd97f0c")
 	)
 	(wire
 		(pts
@@ -3175,16 +2711,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 252.73 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead6cc27-c544-4d7e-82c0-fa15a8a6454d")
-	)
-	(wire
-		(pts
 			(xy 60.96 36.83) (xy 60.96 59.69)
 		)
 		(stroke
@@ -3192,16 +2718,6 @@
 			(type default)
 		)
 		(uuid "ecaf7d4d-18fe-4403-9334-3b4c2969d1bc")
-	)
-	(wire
-		(pts
-			(xy 222.25 80.01) (xy 224.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddbf80f-46bf-467b-aa47-d0c9d5ca5234")
 	)
 	(wire
 		(pts
@@ -3232,46 +2748,6 @@
 			(type default)
 		)
 		(uuid "f46100df-e5ec-462b-9b42-fed37a879164")
-	)
-	(wire
-		(pts
-			(xy 204.47 100.33) (xy 207.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56fd780-6f23-44a5-8e93-774f27319891")
-	)
-	(wire
-		(pts
-			(xy 245.11 88.9) (xy 242.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ccabc2-f612-4e90-b72a-9eb3ae35e90c")
-	)
-	(wire
-		(pts
-			(xy 83.82 54.61) (xy 83.82 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9878f07-96b7-458f-a5c7-c8955af30fd6")
-	)
-	(wire
-		(pts
-			(xy 252.73 101.6) (xy 255.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd4fa36-0a9e-4e08-ba15-2b64228c5f94")
 	)
 	(global_label "PROG5V"
 		(shape input)
@@ -3308,72 +2784,6 @@
 		(uuid "162779de-0160-4ce8-97a2-765dd5f3680b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.0353 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 224.79 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18492754-0af9-4f8e-9824-7001e4b17e7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 224.79 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "185d26a7-4a43-41db-909f-686ec2ee938e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IOT_45"
-		(shape input)
-		(at 194.31 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19f10a3f-eaad-4f2a-8e75-b33be15f9871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0353 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,28 +2859,6 @@
 			)
 		)
 	)
-	(global_label "IOR_39"
-		(shape input)
-		(at 194.31 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3302d954-338d-424f-aad9-e80f03c7c7ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7329 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 273.05 20.32 0)
@@ -3489,50 +2877,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 273.05 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f2cfe99-af7e-4b8a-a38a-14db21c840dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.5428 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCCIO{slash}SPI"
-		(shape input)
-		(at 35.56 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "445f80c2-fdb5-4618-b41a-79a1bfd3a6e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5961 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3572,28 +2916,6 @@
 		(uuid "4cb65485-1c35-42cf-bf6e-42132ef4328d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.2828 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 273.05 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e8c1317-7c61-4022-99bd-f5fc70da67ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.5428 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,50 +2969,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 224.79 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "584925e0-91d8-466a-8754-1bce7dfb7b77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IOR_38"
-		(shape input)
-		(at 242.57 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7dfeb77f-3e4a-4427-971b-69c855c686fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9929 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_SDI"
 		(shape input)
 		(at 41.91 59.69 180)
@@ -3713,28 +2991,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 224.79 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "849103d0-8eaa-4f7f-b453-b4b04d4c2cf2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_SDO"
 		(shape input)
 		(at 41.91 57.15 180)
@@ -3748,50 +3004,6 @@
 		(uuid "8e8f56ac-ceeb-42c4-8f09-8decbf9ce78e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.43 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 273.05 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0235073-f129-42a5-8fb4-e30a819a52f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.5428 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IOR_36"
-		(shape input)
-		(at 194.31 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4fa8b4b-fafb-4d9e-8094-6d27e549c637")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7329 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,28 +3035,6 @@
 			)
 		)
 	)
-	(global_label "IOR_34"
-		(shape input)
-		(at 194.31 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9f3b40a-7d2e-41de-b5ba-76fa4ee4da69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7329 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_CS"
 		(shape input)
 		(at 41.91 52.07 180)
@@ -3858,28 +3048,6 @@
 		(uuid "c0382aef-3d9c-40db-93c4-a3c39ec2f10f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.821 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IOT_47"
-		(shape input)
-		(at 242.57 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1e6b349-fe53-4f9d-b5c9-5a83489ad850")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.2953 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,28 +3101,6 @@
 			)
 		)
 	)
-	(global_label "IOR_35"
-		(shape input)
-		(at 242.57 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d807165c-bda6-4d15-9421-cf2a9472da14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.9929 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IOT_53"
 		(shape input)
 		(at 242.57 27.94 180)
@@ -3996,179 +3142,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 201.93 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00140b1b-cac6-4b22-8409-db8df51d97ce")
-		(property "Reference" "Q12"
-			(at 208.28 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 208.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 201.93 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8dca9300-c06d-4d40-9554-4f643125c43f")
-		)
-		(pin "3"
-			(uuid "287235b5-98e7-4b51-b364-b338c07a09ed")
-		)
-		(pin "2"
-			(uuid "a41b3a0c-6db2-496f-9e77-8bb78aa8d370")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a76ebc5-70d7-416e-8c7b-77709a0b385e")
-		(property "Reference" "#PWR039"
-			(at 204.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa89dbdf-d1bd-42ab-a174-005758b6fb9c")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR039")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4232,190 +3205,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 250.19 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "143407cd-5182-4d00-9773-687f283fe73d")
-		(property "Reference" "Q7"
-			(at 256.54 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 256.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 250.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 250.19 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 250.19 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 250.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99260506-3fef-4df7-8e6e-5184bad9f6ce")
-		)
-		(pin "3"
-			(uuid "f9b668e1-9c00-467c-beb5-4995977c7e0c")
-		)
-		(pin "2"
-			(uuid "90058aa2-9737-4046-a630-271688d32d59")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "162776fe-fd37-427d-8893-740391e3bca7")
-		(property "Reference" "R15"
-			(at 209.55 118.872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 209.55 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 209.55 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c825fd9a-ac5b-4e13-ae1a-f140b27924aa")
-		)
-		(pin "1"
-			(uuid "fa119b35-7a80-47f2-9f36-96a7ca8a048e")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4563,232 +3352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 219.71 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30430ebd-ade5-4bdf-b5ed-575ba839a851")
-		(property "Reference" "D14"
-			(at 219.71 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 220.726 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 219.71 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 219.71 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66a8c0b6-32c7-475a-b0c2-9b0556458a21")
-		)
-		(pin "1"
-			(uuid "1c597271-3144-4fcf-8772-bbdf7f36441d")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31d94f46-8de9-4f6d-bf86-3c4da5d197a1")
-		(property "Reference" "#PWR036"
-			(at 252.73 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 98.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a15e1f72-27b0-4fe4-9f71-5c60046cb1e8")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 257.81 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32e93249-017a-4777-998f-9cca43c9c0b1")
-		(property "Reference" "R10"
-			(at 257.81 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 257.81 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 257.81 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5ecc534-2bf8-4899-9754-8ac5c8c486e5")
-		)
-		(pin "1"
-			(uuid "8a188919-1a6b-4a9a-a47a-c4a3b00b3833")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 125.73 49.53 0)
 		(mirror x)
@@ -4862,289 +3425,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 83.82 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c50782c-7ce3-4604-bacb-8e0819ec758f")
-		(property "Reference" "TP14"
-			(at 84.836 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPICLKTP"
-			(at 83.82 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 88.9 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 83.82 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7a72ee3-c959-4300-b30e-ac649bd80553")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 201.93 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e8aa18a-6ef4-498a-bd5b-7bcdcd6bc401")
-		(property "Reference" "Q6"
-			(at 208.28 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 208.28 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 201.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 201.93 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 201.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6459723b-6555-46a6-aa48-7c07269285f1")
-		)
-		(pin "3"
-			(uuid "95bec857-c4d1-4523-a24d-d80a293f03a8")
-		)
-		(pin "2"
-			(uuid "2295b4c2-7c61-48b5-b00d-ab0f0b2808a6")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 250.19 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41e594e4-471d-42de-953f-132521154d90")
-		(property "Reference" "Q9"
-			(at 256.54 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 256.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 250.19 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 250.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 250.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a979dc5-f998-43fc-9f76-ac9a8324adf0")
-		)
-		(pin "3"
-			(uuid "ba8798dc-619b-435a-90cd-e57e193ca412")
-		)
-		(pin "2"
-			(uuid "6482d9bd-bcd5-42ed-93c2-57688fc16840")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -5230,82 +3510,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d5d3609-d1e8-48d3-b03b-5a9f2d735c36")
-		(property "Reference" "R13"
-			(at 209.55 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 209.55 102.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 209.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "54b8c79b-4ce7-4f63-a232-96512231bc1f")
-		)
-		(pin "1"
-			(uuid "cc4d3fee-50b7-4973-b3d5-4bb2f968a1c8")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5468,167 +3672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 267.97 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57b988b7-ef3d-4f26-98fa-eeecdbf1df85")
-		(property "Reference" "D11"
-			(at 267.97 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 268.986 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 267.97 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 267.97 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd3129a0-6212-4c7c-926c-05c2492a8861")
-		)
-		(pin "1"
-			(uuid "2f2d3dfe-5db3-4813-8387-58cbed876229")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 257.81 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58670433-1f73-491c-869e-59820f952e08")
-		(property "Reference" "R12"
-			(at 257.81 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 257.81 83.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 257.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 257.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2458eada-1537-4317-bfde-df1c4c836e34")
-		)
-		(pin "1"
-			(uuid "60461f16-71b5-4b57-8fba-3682d5fcdbb3")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 68.58 34.29 0)
 		(unit 1)
@@ -5715,71 +3758,6 @@
 			(project ""
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d9da458-9fd7-4c3d-bd06-64b6ff7ecb0a")
-		(property "Reference" "#PWR034"
-			(at 252.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5a14b4b-4beb-4f4f-a501-6c578eb82af3")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5948,91 +3926,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 267.97 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aac491c-1166-46d9-af27-307fcb82b9fa")
-		(property "Reference" "D9"
-			(at 267.97 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 268.986 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 267.97 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 267.97 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 267.97 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abf468aa-2515-482c-ad4e-99beab45e00f")
-		)
-		(pin "1"
-			(uuid "b7b68c50-51e9-4377-ae1c-3aed85263a7a")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6213,203 +4106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 68.58 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70edc71b-90aa-4678-bd53-390ba03ec8d6")
-		(property "Reference" "TP12"
-			(at 69.342 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPIDOTP"
-			(at 68.58 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 73.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 68.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1350aba-00b9-4458-a8a0-98406fcc4f51")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "758005fa-99cc-4c1d-a891-a5abe885f5f7")
-		(property "Reference" "#PWR032"
-			(at 204.47 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "def6abaa-d50c-4487-b2ca-188600549d03")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d090c3d-df59-4254-9b7f-036b62ca5ece")
-		(property "Reference" "#PWR037"
-			(at 204.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46fba06d-44c4-4ef1-a916-470b1b305fc7")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 209.55 39.37 90)
 		(unit 1)
@@ -6480,301 +4176,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 219.71 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87060ce1-449f-40a7-9d5d-25d55b602834")
-		(property "Reference" "D8"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 220.726 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 219.71 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 219.71 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d130bc54-e904-48bd-9e63-6e660b0a34a7")
-		)
-		(pin "1"
-			(uuid "c241eaf2-caac-4b79-be13-3b2a11d0dd03")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "879485b1-3517-45be-bd0a-d919fdb0b02f")
-		(property "Reference" "TP13"
-			(at 77.216 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPIDITP"
-			(at 76.2 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 81.28 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cafc582-5de3-4806-9688-5f25a70bca27")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91fd6073-86cf-4b49-82b5-86fdbcdaf490")
-		(property "Reference" "R9"
-			(at 209.55 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 209.55 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 209.55 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99393e1e-c8f9-4a23-9d3c-ab1451d520f5")
-		)
-		(pin "1"
-			(uuid "2dff9a47-1df0-4289-a9ff-62dbe24a0ae8")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9296e09c-2511-43df-a295-b7185e536896")
-		(property "Reference" "TP15"
-			(at 92.456 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPICSTP"
-			(at 91.44 69.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3326650-a762-41d5-8bd1-791a6e813d4f")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6889,91 +4290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 267.97 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93869ab7-6778-467d-86fe-1eb22ce3b003")
-		(property "Reference" "D13"
-			(at 267.97 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 268.986 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 267.97 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 267.97 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4535e746-dc99-4f63-8230-5060147cb197")
-		)
-		(pin "1"
-			(uuid "f799d82a-4922-4fbb-8165-158c15158381")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 87.63 45.72 90)
 		(unit 1)
@@ -7046,156 +4362,6 @@
 			(project ""
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d97e101-9cf6-461b-8fb3-85c946d8f837")
-		(property "Reference" "#PWR035"
-			(at 204.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ae79aa3-3f61-4b38-948f-dc0fc249defe")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 219.71 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3b9ad10-a79b-4a48-a707-ee371f245cd3")
-		(property "Reference" "D12"
-			(at 219.71 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 220.726 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 219.71 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 219.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 219.71 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6449340f-1d93-4362-ba12-7fbeba7c3cc3")
-		)
-		(pin "1"
-			(uuid "a61c9d2f-ce71-4513-b0f6-7d74a710a4f3")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7287,91 +4453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 219.71 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afe419e3-3850-46f3-9159-e73f7c789def")
-		(property "Reference" "D10"
-			(at 219.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCD0805R1"
-			(at 220.726 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 219.71 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 219.71 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4dc7061e-160b-40e8-9505-690bdfbb0819")
-		)
-		(pin "1"
-			(uuid "5caccd1f-c5cd-4fe0-8597-5ad01a5befe2")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 102.87 45.72 90)
 		(unit 1)
@@ -7448,148 +4529,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 257.81 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b816b081-4870-465d-af62-5404d72b6bbc")
-		(property "Reference" "R14"
-			(at 257.81 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 257.81 103.632 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 257.81 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7070a10d-fe83-4c21-9aa2-3e01078c1555")
-		)
-		(pin "1"
-			(uuid "66bbb7db-ea71-46bc-8159-4aab8e68fece")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c130841b-f812-440b-9777-6eeb259b469b")
-		(property "Reference" "TP23"
-			(at 40.894 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SPI_VCC TP"
-			(at 46.482 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 41.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 41.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7f7f50f-f64e-494e-b364-6f5c9ea38a98")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 41.91 83.82 270)
 		(unit 1)
@@ -7650,82 +4589,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8ff70db-372a-4cd8-a129-4dc494cb1970")
-		(property "Reference" "R11"
-			(at 209.55 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120Ω"
-			(at 209.55 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22787"
-			(at 209.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "400513d3-514f-4306-bd60-519af133bcac")
-		)
-		(pin "1"
-			(uuid "180cb03f-212a-464d-ba0a-5d12290a96cd")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8301,71 +5164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5323e94-0b53-4acc-aa3e-9c4577619afd")
-		(property "Reference" "#PWR038"
-			(at 252.73 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbadb035-ce09-4812-b2fa-f378b7a01aac")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 257.81 40.64 90)
 		(unit 1)
@@ -8674,330 +5472,6 @@
 			(project "iCE40_Breakout"
 				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 201.93 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f49d9043-3d90-4bc5-9d4f-63a4b296a78e")
-		(property "Reference" "Q10"
-			(at 208.28 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 208.28 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 201.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 201.93 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 201.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1d2fbda-2c76-4ee4-ad16-48d687e6546c")
-		)
-		(pin "3"
-			(uuid "0aa0e4a5-5b5e-4aae-aed3-d5e16239d53b")
-		)
-		(pin "2"
-			(uuid "0e8248d9-fa66-4bc5-b4fc-2d3bfa75cc95")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 250.19 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbd9ace8-8e21-4d7b-bc9a-03d59a86d001")
-		(property "Reference" "Q11"
-			(at 256.54 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 256.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 255.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 250.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 250.19 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 250.19 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 250.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 250.19 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f666faf-f22d-4f70-81e0-2c99a01c54d8")
-		)
-		(pin "3"
-			(uuid "57c04dcf-b5fa-46b4-85b3-2c0ce2db1c38")
-		)
-		(pin "2"
-			(uuid "499b7af3-a99e-438b-95af-3b38430b4d98")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 201.93 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc20af6d-5c63-4761-a8af-4a2d8bc969b2")
-		(property "Reference" "Q8"
-			(at 208.28 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "L2N7002SLLT1G"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 201.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 201.93 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22446827"
-			(at 201.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c6246f-308b-4460-9d5f-d597d8871417")
-		)
-		(pin "3"
-			(uuid "3125fba9-d873-4d6c-a135-5d4de284f9b3")
-		)
-		(pin "2"
-			(uuid "cf6a9b1d-f617-4f16-906a-2e6dd027c954")
-		)
-		(instances
-			(project "iCE40_Breakout"
-				(path "/ce4d7974-ef38-4eea-8119-381c4298ef02/0b13b405-f1f0-4313-93f2-3939760c2f72"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
