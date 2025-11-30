@@ -4347,7 +4347,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 120.65 90)
+		(at 209.55 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4355,7 +4355,7 @@
 		(dnp no)
 		(uuid "162776fe-fd37-427d-8893-740391e3bca7")
 		(property "Reference" "R15"
-			(at 219.71 118.872 90)
+			(at 209.55 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4363,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 122.682 90)
+			(at 209.55 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4371,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4389,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4398,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 120.65 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4423,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 20.32 90)
+		(at 257.81 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4431,7 +4431,7 @@
 		(dnp no)
 		(uuid "1b4a9648-d36d-40ef-8fdd-23adb26b73b7")
 		(property "Reference" "R5"
-			(at 267.97 18.542 90)
+			(at 257.81 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 267.97 22.352 90)
+			(at 257.81 22.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4465,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4474,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 267.97 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4564,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 120.65 0)
+		(at 219.71 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4572,7 +4572,7 @@
 		(dnp no)
 		(uuid "30430ebd-ade5-4bdf-b5ed-575ba839a851")
 		(property "Reference" "D14"
-			(at 209.55 118.11 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4580,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 122.936 0)
+			(at 220.726 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 120.65 90)
+			(at 219.71 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 120.65 90)
+			(at 219.71 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 120.65 0)
+			(at 219.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 120.65 0)
+			(at 219.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4624,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 120.65 90)
+			(at 219.71 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4714,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 60.96 90)
+		(at 257.81 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4722,7 +4722,7 @@
 		(dnp no)
 		(uuid "32e93249-017a-4777-998f-9cca43c9c0b1")
 		(property "Reference" "R10"
-			(at 267.97 59.182 90)
+			(at 257.81 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4730,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 267.97 62.992 90)
+			(at 257.81 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 60.96 0)
+			(at 257.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 60.96 0)
+			(at 257.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 60.96 0)
+			(at 257.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 267.97 60.96 0)
+			(at 257.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 19.05 0)
+		(at 219.71 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5160,7 +5160,7 @@
 		(dnp no)
 		(uuid "44aa631f-ced8-4668-9b33-1149b12d2e97")
 		(property "Reference" "D4"
-			(at 209.55 16.51 0)
+			(at 219.71 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5168,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 21.336 0)
+			(at 220.726 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5176,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 19.05 90)
+			(at 219.71 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 19.05 90)
+			(at 219.71 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5194,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 19.05 0)
+			(at 219.71 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 19.05 0)
+			(at 219.71 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5212,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 19.05 90)
+			(at 219.71 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5237,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 100.33 90)
+		(at 209.55 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5245,7 +5245,7 @@
 		(dnp no)
 		(uuid "4d5d3609-d1e8-48d3-b03b-5a9f2d735c36")
 		(property "Reference" "R13"
-			(at 219.71 98.552 90)
+			(at 209.55 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 102.362 90)
+			(at 209.55 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 100.33 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 100.33 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5279,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 100.33 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5288,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 100.33 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 39.37 0)
+		(at 219.71 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5392,7 +5392,7 @@
 		(dnp no)
 		(uuid "53c95109-0a7f-409d-bace-0efdc6fd2fff")
 		(property "Reference" "D6"
-			(at 209.55 36.83 0)
+			(at 219.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5400,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 41.656 0)
+			(at 220.726 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 39.37 90)
+			(at 219.71 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 39.37 90)
+			(at 219.71 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5426,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 39.37 0)
+			(at 219.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5435,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 39.37 0)
+			(at 219.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 39.37 90)
+			(at 219.71 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5469,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 257.81 81.28 0)
+		(at 267.97 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5477,7 +5477,7 @@
 		(dnp no)
 		(uuid "57b988b7-ef3d-4f26-98fa-eeecdbf1df85")
 		(property "Reference" "D11"
-			(at 257.81 78.74 0)
+			(at 267.97 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5485,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 258.826 83.566 0)
+			(at 268.986 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 81.28 90)
+			(at 267.97 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 81.28 90)
+			(at 267.97 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5511,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 257.81 81.28 0)
+			(at 267.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 81.28 0)
+			(at 267.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 257.81 81.28 90)
+			(at 267.97 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5554,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 81.28 90)
+		(at 257.81 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5562,7 +5562,7 @@
 		(dnp no)
 		(uuid "58670433-1f73-491c-869e-59820f952e08")
 		(property "Reference" "R12"
-			(at 267.97 79.502 90)
+			(at 257.81 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5570,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 267.97 83.312 90)
+			(at 257.81 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 81.28 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 81.28 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5596,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 81.28 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5605,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 267.97 81.28 0)
+			(at 257.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5955,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 257.81 60.96 0)
+		(at 267.97 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5963,7 +5963,7 @@
 		(dnp no)
 		(uuid "6aac491c-1166-46d9-af27-307fcb82b9fa")
 		(property "Reference" "D9"
-			(at 257.81 58.42 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5971,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 258.826 63.246 0)
+			(at 268.986 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +5979,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 60.96 90)
+			(at 267.97 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,7 +5988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 60.96 90)
+			(at 267.97 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5997,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 257.81 60.96 0)
+			(at 267.97 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6006,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 60.96 0)
+			(at 267.97 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6015,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 257.81 60.96 90)
+			(at 267.97 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6411,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 39.37 90)
+		(at 209.55 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6419,7 +6419,7 @@
 		(dnp no)
 		(uuid "809f04b6-35f3-4045-bbf4-d2d9a6e9ebeb")
 		(property "Reference" "R7"
-			(at 219.71 37.592 90)
+			(at 209.55 37.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +6427,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 41.402 90)
+			(at 209.55 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6435,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6453,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6462,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6487,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 59.69 0)
+		(at 219.71 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6495,7 +6495,7 @@
 		(dnp no)
 		(uuid "87060ce1-449f-40a7-9d5d-25d55b602834")
 		(property "Reference" "D8"
-			(at 209.55 57.15 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6503,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 61.976 0)
+			(at 220.726 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6511,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 59.69 90)
+			(at 219.71 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 59.69 90)
+			(at 219.71 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6529,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 59.69 0)
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6538,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 59.69 0)
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +6547,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 59.69 90)
+			(at 219.71 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +6639,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 59.69 90)
+		(at 209.55 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6647,7 +6647,7 @@
 		(dnp no)
 		(uuid "91fd6073-86cf-4b49-82b5-86fdbcdaf490")
 		(property "Reference" "R9"
-			(at 219.71 57.912 90)
+			(at 209.55 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6655,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 61.722 90)
+			(at 209.55 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6663,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 59.69 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 59.69 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6681,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 59.69 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6690,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 59.69 0)
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6890,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 257.81 101.6 0)
+		(at 267.97 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6898,7 +6898,7 @@
 		(dnp no)
 		(uuid "93869ab7-6778-467d-86fe-1eb22ce3b003")
 		(property "Reference" "D13"
-			(at 257.81 99.06 0)
+			(at 267.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6906,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 258.826 103.886 0)
+			(at 268.986 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 101.6 90)
+			(at 267.97 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 101.6 90)
+			(at 267.97 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6932,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 257.81 101.6 0)
+			(at 267.97 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6941,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 101.6 0)
+			(at 267.97 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6950,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 257.81 101.6 90)
+			(at 267.97 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7118,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 100.33 0)
+		(at 219.71 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7126,7 +7126,7 @@
 		(dnp no)
 		(uuid "a3b9ad10-a79b-4a48-a707-ee371f245cd3")
 		(property "Reference" "D12"
-			(at 209.55 97.79 0)
+			(at 219.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7134,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 102.616 0)
+			(at 220.726 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 100.33 90)
+			(at 219.71 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 100.33 90)
+			(at 219.71 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7160,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 100.33 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7169,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 100.33 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7178,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 100.33 90)
+			(at 219.71 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7288,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 209.55 80.01 0)
+		(at 219.71 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7296,7 +7296,7 @@
 		(dnp no)
 		(uuid "afe419e3-3850-46f3-9159-e73f7c789def")
 		(property "Reference" "D10"
-			(at 209.55 77.47 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7304,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 210.566 82.296 0)
+			(at 220.726 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7312,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 209.55 80.01 90)
+			(at 219.71 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 80.01 90)
+			(at 219.71 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7330,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 209.55 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7339,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7348,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 209.55 80.01 90)
+			(at 219.71 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +7449,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 101.6 90)
+		(at 257.81 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7457,7 +7457,7 @@
 		(dnp no)
 		(uuid "b816b081-4870-465d-af62-5404d72b6bbc")
 		(property "Reference" "R14"
-			(at 267.97 99.822 90)
+			(at 257.81 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7465,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 267.97 103.632 90)
+			(at 257.81 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7473,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 101.6 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +7482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 101.6 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7491,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 101.6 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7500,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 267.97 101.6 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 80.01 90)
+		(at 209.55 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7665,7 +7665,7 @@
 		(dnp no)
 		(uuid "c8ff70db-372a-4cd8-a129-4dc494cb1970")
 		(property "Reference" "R11"
-			(at 219.71 78.232 90)
+			(at 209.55 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7673,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 82.042 90)
+			(at 209.55 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 80.01 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 80.01 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7699,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 80.01 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7708,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 80.01 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7841,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 219.71 19.05 90)
+		(at 209.55 19.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7849,7 +7849,7 @@
 		(dnp no)
 		(uuid "ce003577-836e-499f-9e38-4cfbc6de168d")
 		(property "Reference" "R4"
-			(at 219.71 17.272 90)
+			(at 209.55 17.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7857,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 219.71 21.082 90)
+			(at 209.55 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +7865,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.71 19.05 0)
+			(at 209.55 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +7874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 19.05 0)
+			(at 209.55 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +7883,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 219.71 19.05 0)
+			(at 209.55 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +7892,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 219.71 19.05 0)
+			(at 209.55 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8056,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 257.81 40.64 0)
+		(at 267.97 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8064,7 +8064,7 @@
 		(dnp no)
 		(uuid "d1c3b5a5-fc5a-4f08-bbcf-c30ce86f9b58")
 		(property "Reference" "D7"
-			(at 257.81 38.1 0)
+			(at 267.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8072,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 258.826 42.926 0)
+			(at 268.986 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8080,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 40.64 90)
+			(at 267.97 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 40.64 90)
+			(at 267.97 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8098,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 257.81 40.64 0)
+			(at 267.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8107,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 40.64 0)
+			(at 267.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8116,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 257.81 40.64 90)
+			(at 267.97 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8141,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 257.81 20.32 0)
+		(at 267.97 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8149,7 +8149,7 @@
 		(dnp no)
 		(uuid "d21c3550-09d9-4f3a-90d3-00b35597389d")
 		(property "Reference" "D5"
-			(at 257.81 17.78 0)
+			(at 267.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Value" "NCD0805R1"
-			(at 258.826 22.606 0)
+			(at 268.986 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8165,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 257.81 20.32 90)
+			(at 267.97 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 20.32 90)
+			(at 267.97 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +8183,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 257.81 20.32 0)
+			(at 267.97 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8192,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 20.32 0)
+			(at 267.97 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8201,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 257.81 20.32 90)
+			(at 267.97 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8367,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 40.64 90)
+		(at 257.81 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8375,7 +8375,7 @@
 		(dnp no)
 		(uuid "e8924e1e-fdd9-499d-bab5-549c72e4875f")
 		(property "Reference" "R8"
-			(at 267.97 38.862 90)
+			(at 257.81 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8383,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 267.97 42.672 90)
+			(at 257.81 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8391,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 40.64 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 40.64 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8409,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 267.97 40.64 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8418,7 @@
 			)
 		)
 		(property "LCSC" "C22787"
-			(at 267.97 40.64 0)
+			(at 257.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
