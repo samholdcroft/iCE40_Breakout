@@ -18757,13 +18757,12 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 93.98 173.9899 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -18785,6 +18784,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 91.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 91.44 172.72 0)
 			(effects
 				(font
