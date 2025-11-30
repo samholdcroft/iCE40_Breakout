@@ -15801,7 +15801,7 @@
 	)
 	(global_label "IOR_34"
 		(shape input)
-		(at 113.03 118.11 180)
+		(at 113.03 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15811,7 +15811,7 @@
 		)
 		(uuid "123bd85a-6ad6-4570-85b9-716e662db701")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4529 118.11 0)
+			(at 103.4529 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +15845,7 @@
 	)
 	(global_label "IOT_45"
 		(shape input)
-		(at 74.93 123.19 180)
+		(at 74.93 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15855,7 +15855,7 @@
 		)
 		(uuid "23a661d9-b7c4-4f1d-bcfe-4ee7664fb6a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 123.19 0)
+			(at 65.6553 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +15999,7 @@
 	)
 	(global_label "IOL_5N"
 		(shape input)
-		(at 41.91 115.57 180)
+		(at 41.91 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16009,7 +16009,7 @@
 		)
 		(uuid "33db4295-8f2d-431a-81ba-66671eab96a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.4538 115.57 0)
+			(at 32.4538 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16109,7 +16109,7 @@
 	)
 	(global_label "IOR_36"
 		(shape input)
-		(at 113.03 113.03 180)
+		(at 113.03 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16119,7 +16119,7 @@
 		)
 		(uuid "3bce5634-729b-40fe-a497-a4364dcd58ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4529 113.03 0)
+			(at 103.4529 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16175,7 +16175,7 @@
 	)
 	(global_label "IOL_5P"
 		(shape input)
-		(at 41.91 113.03 180)
+		(at 41.91 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16185,7 +16185,7 @@
 		)
 		(uuid "3cdd7743-ea81-4236-b2f1-e1622797ab54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5143 113.03 0)
+			(at 32.5143 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +16659,7 @@
 	)
 	(global_label "IOT_47"
 		(shape input)
-		(at 74.93 125.73 180)
+		(at 74.93 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16669,7 +16669,7 @@
 		)
 		(uuid "dc04cd54-fa42-46ea-a0f3-88ae5d4b6e0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 125.73 0)
+			(at 65.6553 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,6 +17640,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 222.25 49.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
