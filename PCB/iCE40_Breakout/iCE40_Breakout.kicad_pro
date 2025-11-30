@@ -58,36 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|66935000|103050000|652c8b3d-1dec-4cf4-84b6-700ade6db848|b6aab464-f206-4719-9f08-80d8ccd2c43b",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|103050000|652c8b3d-1dec-4cf4-84b6-700ade6db848|baab07fd-4599-4470-9436-55c07937da24",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|96950000|02740bef-7af6-49e5-a967-5a018ef8363b|c7d43d1d-8360-442d-8199-69f898a560ea",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|96950000|02740bef-7af6-49e5-a967-5a018ef8363b|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c",
-          ""
-        ],
-        [
-          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c7d43d1d-8360-442d-8199-69f898a560ea|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|81599700|103924300|fbb87638-3543-45a8-83d0-ac607bf82e26|781c053a-84b5-407c-8d8d-9eaf479351d4|F.Cu",
-          "Pad connects to larger ground via track"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
