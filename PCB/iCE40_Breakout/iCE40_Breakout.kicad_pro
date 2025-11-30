@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|66935000|103050000|652c8b3d-1dec-4cf4-84b6-700ade6db848|b6aab464-f206-4719-9f08-80d8ccd2c43b",
+          ""
+        ],
+        [
+          "hole_clearance|66935000|103050000|652c8b3d-1dec-4cf4-84b6-700ade6db848|baab07fd-4599-4470-9436-55c07937da24",
+          ""
+        ],
+        [
+          "hole_clearance|66935000|96950000|02740bef-7af6-49e5-a967-5a018ef8363b|c7d43d1d-8360-442d-8199-69f898a560ea",
+          ""
+        ],
+        [
+          "hole_clearance|66935000|96950000|02740bef-7af6-49e5-a967-5a018ef8363b|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c",
+          ""
+        ],
+        [
+          "starved_thermal|111595700|99249999|fbb87638-3543-45a8-83d0-ac607bf82e26|21f8a5ce-3461-45fa-ab63-814bda38e595|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c7d43d1d-8360-442d-8199-69f898a560ea|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|90050000|101135000|fbb87638-3543-45a8-83d0-ac607bf82e26|3028775b-b6eb-4030-81a5-22c37981a517|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -503,7 +536,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -520,7 +553,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -534,7 +567,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
