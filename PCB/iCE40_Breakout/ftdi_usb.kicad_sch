@@ -52959,7 +52959,7 @@
 				)
 			)
 		)
-		(property "Value" "X3S012000FK1H-HV"
+		(property "Value" "X322512MSB4SI"
 			(at 134.366 124.206 0)
 			(effects
 				(font
@@ -52976,7 +52976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://XTAL-X3S012000FK1H-HV.pdf"
+		(property "Datasheet" "kicad-embed://XTAL-YXC-X322512MSB4SI.pdf"
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -52994,7 +52994,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C254309"
+		(property "LCSC" "C9002"
 			(at 134.62 130.81 0)
 			(effects
 				(font
