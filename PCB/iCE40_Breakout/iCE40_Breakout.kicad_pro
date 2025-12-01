@@ -58,40 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|66935000|103050000|58f4597f-2dde-43d7-98d6-2c0a07cbf2cf|b6aab464-f206-4719-9f08-80d8ccd2c43b",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|103050000|58f4597f-2dde-43d7-98d6-2c0a07cbf2cf|baab07fd-4599-4470-9436-55c07937da24",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|96950000|74a921b2-3de0-4bc0-a90f-1be3cb21edac|c7d43d1d-8360-442d-8199-69f898a560ea",
-          ""
-        ],
-        [
-          "hole_clearance|66935000|96950000|74a921b2-3de0-4bc0-a90f-1be3cb21edac|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c",
-          ""
-        ],
-        [
-          "starved_thermal|111595700|99249999|fbb87638-3543-45a8-83d0-ac607bf82e26|21f8a5ce-3461-45fa-ab63-814bda38e595|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c7d43d1d-8360-442d-8199-69f898a560ea|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|67360000|96800000|fbb87638-3543-45a8-83d0-ac607bf82e26|c848c59c-01c3-44ea-ae0b-3bdc207f4d5c|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|90050000|101135000|fbb87638-3543-45a8-83d0-ac607bf82e26|3028775b-b6eb-4030-81a5-22c37981a517|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -168,11 +135,11 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.15,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_via_diameter": 0.45,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -258,15 +225,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.25,
-          "drill": 0.15
-        },
-        {
-          "diameter": 0.3,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.3
         },
         {
@@ -548,8 +507,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.3,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -563,7 +522,7 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.3,
+        "via_diameter": 0.5,
         "via_drill": 0.4
       },
       {
@@ -591,8 +550,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.25,
-        "via_drill": 0.15
+        "via_diameter": 0.45,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -632,7 +591,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/samho/Downloads/iCE40_Breakout/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -777,7 +736,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "bom2grouped_csv_jlcpcb",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
