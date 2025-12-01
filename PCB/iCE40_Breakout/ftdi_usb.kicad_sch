@@ -44124,18 +44124,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44143,8 +44141,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44152,25 +44150,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -44179,34 +44180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -44215,7 +44189,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -44359,7 +44342,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -44382,7 +44365,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -44393,7 +44376,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -44411,7 +44394,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -44429,7 +44412,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -44652,6 +44635,26 @@
 			)
 		)
 		(uuid "00c9cc9b-0592-4148-b227-b4b72c58f455")
+	)
+	(text "(Red)"
+		(exclude_from_sim no)
+		(at 168.91 142.748 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d5d4137-0be5-4165-be18-b9e261a82b0d")
+	)
+	(text "(Yellow)"
+		(exclude_from_sim no)
+		(at 178.562 148.082 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2b65926-d8ae-4ae2-a426-c17d5748a979")
 	)
 	(text_box "For testing different serial outputs from the FPGA"
 		(exclude_from_sim no)
@@ -49151,7 +49154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCD0805B2"
+		(property "Value" "KT-0805Y"
 			(at 171.958 151.384 0)
 			(effects
 				(font
@@ -49196,7 +49199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84259"
+		(property "LCSC" "C2296"
 			(at 173.99 147.32 90)
 			(effects
 				(font
@@ -49627,7 +49630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -49654,7 +49657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C472437"
+		(property "LCSC" "C21117"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -50605,7 +50608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:2N7002")
 		(at 80.01 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50622,7 +50625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L2N7002SLLT1G"
+		(property "Value" "2N7002"
 			(at 86.36 182.88 0)
 			(effects
 				(font
@@ -50632,24 +50635,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.09 179.07 0)
+			(at 85.09 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 85.09 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 80.01 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 80.01 181.61 0)
 			(effects
 				(font
@@ -50685,7 +50691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22446827"
+		(property "LCSC" "C8545"
 			(at 80.01 181.61 0)
 			(effects
 				(font
@@ -51857,7 +51863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:2N7002")
 		(at 31.75 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51874,7 +51880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L2N7002SLLT1G"
+		(property "Value" "2N7002"
 			(at 38.1 161.29 0)
 			(effects
 				(font
@@ -51884,24 +51890,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 36.83 157.48 0)
+			(at 36.83 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 36.83 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 31.75 160.02 0)
 			(effects
 				(font
@@ -51937,7 +51946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22446827"
+		(property "LCSC" "C8545"
 			(at 31.75 160.02 0)
 			(effects
 				(font
@@ -53102,7 +53111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:2N7002")
 		(at 80.01 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -53119,7 +53128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L2N7002SLLT1G"
+		(property "Value" "2N7002"
 			(at 86.36 162.56 0)
 			(effects
 				(font
@@ -53129,24 +53138,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.09 158.75 0)
+			(at 85.09 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 85.09 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 80.01 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -53182,7 +53194,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22446827"
+		(property "LCSC" "C8545"
 			(at 80.01 161.29 0)
 			(effects
 				(font
@@ -53664,7 +53676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:2N7002")
 		(at 31.75 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -53681,7 +53693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L2N7002SLLT1G"
+		(property "Value" "2N7002"
 			(at 38.1 181.61 0)
 			(effects
 				(font
@@ -53691,24 +53703,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 36.83 177.8 0)
+			(at 36.83 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 36.83 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 31.75 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 31.75 180.34 0)
 			(effects
 				(font
@@ -53744,7 +53759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22446827"
+		(property "LCSC" "C8545"
 			(at 31.75 180.34 0)
 			(effects
 				(font
