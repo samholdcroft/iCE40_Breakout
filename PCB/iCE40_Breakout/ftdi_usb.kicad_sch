@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "iCE40 Breakout")
-		(date "2025-11-26")
-		(rev "V1R0")
+		(date "2025-12-03")
+		(rev "V1R1")
 		(company "S3I")
 		(comment 1 "FTDI USB interface chip and USBC recepticle")
 	)
