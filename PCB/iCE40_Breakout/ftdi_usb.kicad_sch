@@ -48570,7 +48570,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1260e2ec-a838-4802-a07a-7574efe24cf0")
 		(property "Reference" "J5"
@@ -50201,7 +50201,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52257b20-3f3d-4491-9133-1962020f3626")
 		(property "Reference" "J6"
@@ -50954,7 +50954,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d0cb31b-f89b-4782-8d4f-78e924b89650")
 		(property "Reference" "U8"
 			(at 74.676 117.348 0)
@@ -51208,7 +51208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7411abca-ace0-41ec-8a4d-50421c732905")
 		(property "Reference" "U7"
 			(at 210.82 92.964 0)
@@ -51487,7 +51487,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "791b59a8-7e37-49fe-92de-2a520e9026d0")
 		(property "Reference" "C45"
 			(at 148.59 134.6262 0)
@@ -51507,7 +51507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -51526,15 +51526,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1548"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -52966,7 +52957,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b1a572df-d553-4f87-b8c3-cedba44753bb")
 		(property "Reference" "Y1"
 			(at 131.318 126.238 0)
@@ -53992,7 +53983,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e02e7698-8540-4b07-96a5-58ba396040b3")
 		(property "Reference" "C44"
 			(at 120.65 134.6262 0)
@@ -54012,7 +54003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 135.89 0)
 			(effects
 				(font
@@ -54031,15 +54022,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 123.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1548"
 			(at 123.19 135.89 0)
 			(effects
 				(font
